@@ -1,0 +1,39 @@
+{
+  "name": "ng2_simple_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "server": "webpack-dev-server --inline --colors --display-error-details --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrichard/ng2_simple_service.git"
+  },
+  "keywords": [
+    "ng2",
+    "http",
+    "rxjs"
+  ],
+  "author": "Michel Richard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrichard/ng2_simple_service/issues"
+  },
+  "homepage": "https://github.com/mrichard/ng2_simple_service#readme",
+  "dependencies": {
+    "@reactivex/rxjs": "^5.0.0-alpha.2",
+    "angular2": "^2.0.0-alpha.38",
+    "bootstrap": "^3.3.5",
+    "reflect-metadata": "^0.1.2",
+    "typescript": "^1.6.2",
+    "zone.js": "^0.5.7"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^1.6.1",
+    "typescript-simple-loader": "^0.3.7",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  }
+}
